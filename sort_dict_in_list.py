@@ -1,8 +1,12 @@
 import csv
 
-#open a CSV FILE and write in it informations from persons
 
-persons = [['Amine', 'A', 37], ['Samia', 'B', 33], ['Dina', 'C', 3]]
+#New comments
+
+#New comments
+
+
+persons = [['Aminee', 'A', 37], ['Samia', 'B', 33], ['Dina', 'C', 3]]
 
 with open("names_houses_ages.csv", "w", newline="") as f:
     writer = csv.writer(f)
